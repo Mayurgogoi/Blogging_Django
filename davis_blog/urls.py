@@ -4,9 +4,9 @@ from blogs import views
 from django.conf.urls.static import static
 from davis_blog import settings
 
-admin.site.site_header = "Davis Blog"
-admin.site.site_title =  "Davis Blog"
-admin.site.index_title = "Davis Blog"
+admin.site.site_header = "Mayur Blog"
+admin.site.site_title =  "Mayur Blog"
+admin.site.index_title = "Mayur Blog"
 
 urlpatterns = [
     path('admin/', admin.site.urls),
